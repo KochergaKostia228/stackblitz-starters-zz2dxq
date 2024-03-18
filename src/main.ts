@@ -10,7 +10,9 @@ import { InfoComponent } from './app/resume/info/info.component';
   standalone: true,
   imports: [HobbyComponent,ResumeComponent,InfoComponent],
   template: `
-    <app-resume/>
+    <app-resume/><br>
+    <br>
+    <a href="https://github.com/KochergaKostia228/stackblitz-starters-zz2dxq">https://github.com/KochergaKostia228/stackblitz-starters-zz2dxq</a>
   `,
 })
 export class App {
